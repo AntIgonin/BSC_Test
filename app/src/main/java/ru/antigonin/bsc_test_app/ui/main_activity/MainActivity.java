@@ -54,9 +54,9 @@ public class MainActivity extends BaseActivity implements MainActivityContract.V
     }
 
     private void setupRecyclerView() {
-        binding.foodItemRv.setLayoutManager(new LinearLayoutManager(this));
+        binding.currencyItemRv.setLayoutManager(new LinearLayoutManager(this));
         menuItemAdapter = new MenuItemAdapter();
-        binding.foodItemRv.setAdapter(menuItemAdapter);
+        binding.currencyItemRv.setAdapter(menuItemAdapter);
     }
 
 
